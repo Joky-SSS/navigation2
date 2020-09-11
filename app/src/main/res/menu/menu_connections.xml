@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_connect_bluetooth"
+        app:showAsAction="never"
+        android:title="蓝牙连接RTK" />
+    <item
+        android:id="@+id/menu_disconnect_bluetooth"
+        app:showAsAction="never"
+        android:title="断开蓝牙连接" />
+    <!--  <item
+          android:id="@+id/menu_connect_network"
+          app:showAsAction="never"
+          android:title="连接网络" />
+      <item
+          android:id="@+id/menu_disconnect_network"
+          app:showAsAction="never"
+          android:title="断开网络" />-->
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".DeviceListActivity">
+
+    <TextView
+        android:id="@+id/title_paired_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:text="已配对的设备"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryText"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/paired_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:stackFromBottom="true"
+        tools:listitem="@layout/device_name" />
+
+</LinearLayout>
